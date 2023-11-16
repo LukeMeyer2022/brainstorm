@@ -15,8 +15,8 @@ with st.sidebar:
 @st.cache_data
 def load_data():
     try:
-        url = "https://github.com/LukeMeyer2022/brainstorm/DataMetsV5_Cleaned.xlsx"
-        df = pd.read_excel(url)
+        data = "DataMetsV5_Cleaned.xlsx"
+        df = pd.read_excel(data)
         return df
     except Exception as e:
         st.error(f"Error loading data: {e}")
