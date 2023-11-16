@@ -12,5 +12,4 @@ def brainstorm():
   df = pd.read_excel(url)
   return df
 
-if __name__ == "__main__":
-    run()
+brainstorm()
