@@ -12,7 +12,7 @@ with st.sidebar:
     st.header("Sidebar")
     # Add interactive widgets here, e.g., st.slider(), st.selectbox()
 
-@st.cache
+@st.cache_data
 def load_data():
     try:
         url = "https://github.com/LukeMeyer2022/brainstorm/DataMetsV5_Cleaned.xlsx"
